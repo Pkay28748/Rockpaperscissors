@@ -1,10 +1,10 @@
 function getComputerChoice(){
+const randomNumber = Math.random();
 
-
-    if(Math.random<= 0.3){
+    if(randomNumber< 0.3){
         console.log('rock');
     }
-    else if(Math.random <=0.6){
+    else if(randomNumber <0.6){
         console.log('paper');
     }
     else {
