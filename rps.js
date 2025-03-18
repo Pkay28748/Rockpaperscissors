@@ -57,15 +57,5 @@ function playGame(){
 // At this stage we will be playing the entire game from 1
 // Pass the methods of 1 and 2 as arguments in 3
 
-for (let a =0; a<5; a++){
-    playRound(getHumanChoice(),getComputerchoice())
-}
-
-if(humanScore > computerChoice){
-    return `You won with ${humanScore} points`
-}
-
-else {
-    return (humanScore === computerScore)? "its a draw match":"You lost totally";
-};
+// The logic that plays the five round removed 
 
